@@ -1,0 +1,34 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'danielxhogan'
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome"
+
+  [menus]
+    [[menus.main]]
+      name = 'Tutorials'
+      pageRef = '/tutorials'
+      weight = 10
+    [[menus.main]]
+      name = 'About Me'
+      pageRef = '/about_me'
+      weight = 20
+
+
+[taxonomies]
+  tutorial = 'tutorials'
+
+[params]
+  [params.author]
+    intro = "Daniel Hogan"
+    description = "Hello! This is a blog dedicated to learning about multimedia software development."
+    avatar = "headshot.jpg"
+  [[params.socialIcons]]
+    name = "letterboxd"
+    url = "https://letterboxd.com/hugexjackedman/"
+
+[markup]
+  [markup.highlight]
+    style = 'nord'
