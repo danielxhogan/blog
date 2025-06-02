@@ -32,3 +32,7 @@ title = 'danielxhogan'
 [markup]
   [markup.highlight]
     style = 'nord'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
