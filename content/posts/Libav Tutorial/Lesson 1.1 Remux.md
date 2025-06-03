@@ -59,6 +59,8 @@ if ((ret = avformat_alloc_output_context2(&out_fmt_ctx,
   goto end;
 }
 
+...
+
 end:
   avformat_close_input(&in_fmt_ctx);
   avformat_free_context(out_fmt_ctx);

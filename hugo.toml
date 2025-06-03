@@ -31,7 +31,8 @@ title = 'danielxhogan'
 
 [markup]
   [markup.highlight]
-    style = 'nord'
+    # style = 'catppuccin-frappe'
+    style = 'xcode-dark'
 
 [caches]
   [caches.images]
