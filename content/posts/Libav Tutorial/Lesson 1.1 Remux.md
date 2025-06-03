@@ -32,7 +32,7 @@ directory and run `ninja`. The commands to run the program can be found in the
 folder and the commands are designed to store the ouput files in
 `videos/outputs` so you'll need to create that folder.
 
-## Opening Input File & Initializing AVFormatContext's
+## Opening Input File & Initializing AVFormatContext
 
 {{< highlight c >}}
 AVFormatContext *in_fmt_ctx = NULL, *out_fmt_ctx = NULL;
@@ -111,6 +111,7 @@ if ((ret = avcodec_parameters_copy(out_stream->codecpar,
   fprintf(stderr, "failed to copy video codec parameters\n");
   goto end;
 }
+
 out_stream->codecpar->codec_tag = 0;
 {{< /highlight >}}
 
@@ -232,7 +233,7 @@ to free the `AVPacket` and close the file.
   }
 {{< /highlight >}}
 
-We'll start by calling `av_read_frame` inside an loop that runs as long the
+We'll start by calling `av_read_frame` inside a loop that runs as long the
 return value is not negative. A negative value signals the end of the file,
 or an error. The packet data read from the input will be stored in `pkt`. This
 struct will have a field `stream_index` specifying which stream from the input
