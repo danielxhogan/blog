@@ -264,3 +264,9 @@ how to access, transfer, and set user defined metadata values. You will be
 able to copy all metadata from the input to the output and pass in a title
 value on the command line that will be used to set the metadata title of the
 output. You will also learn how to transfer chapter information.
+
+[Go To Next Lesson - 1.2: Copy Metadata](/posts/libav-tutorial/lesson-1.2-copy-metadata/)
+
+[Go To Previous Lesson - 0: Libav Tutorial Introduction](/posts/libav-tutorial/lesson-0/)
+
+[View All Lessons](/tutorials/libav-tutorial/)
