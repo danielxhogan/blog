@@ -152,6 +152,8 @@ The chapter data will parsed and the values will be set on `metadata` field of
 the `AVFormatContext` struct which will then be copied to the output context
 using `av_dict_copy`.
 
+[Go To Next Lesson - 1.3: Add Chapters](/posts/libav-tutorial/lesson-1.3-add-chapters/)
+
 [Go To Previous Lesson - 1.1: Remux](/posts/libav-tutorial/lesson-1.1-remux/)
 
 [View All Lessons](/tutorials/libav-tutorial/)
