@@ -53,8 +53,8 @@ the value stated in the `chapters.txt` file, unless it is the last chapter. For
 `mkv` and `webm`, the end time listed in the files metadata will be the value
 stated in the `chapters.txt` file, but the actual chapter marker when playing
 the file will be at the start of the latter chapter, not at the end of the
-former. `mkv` and `webm` also support arbitrary metadata values such as
-`hi=bye`. These values will be igonred by the other formats.
+former. `mkv` also supports arbitrary metadata values such as `hi=bye`. These
+values will be igonred by the other formats.
 
 ## Opening Chapter File
 
@@ -87,7 +87,7 @@ if ((ret = avformat_open_input(&ch_fmt_ctx,
 }
 {{< /highlight >}}
 
-The first major differenct in this example is that we are taking in two input
+The first major difference in this example is that we are taking in two inputs
 instead of one. We must declare an `AVFormatContext` struct that will hold
 information about the `chapters.txt` file and an `AVInputFormat` struct that will
 hold information about the format of the file. We assign the second
