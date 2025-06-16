@@ -129,6 +129,8 @@ parsed into an `AVFormatContext` struct that will have a subtitle stream on it
 just like if we had input a video file that had a subtitle stream on it. This
 stream will be muxed into the output file.
 
+[Go To Next Lesson - 1.4: Add Subtitles](/posts/libav-tutorial/lesson-1.4-add-subtitles/)
+
 [Go To Previous Lesson - 1.2: Copy Metadata](/posts/libav-tutorial/lesson-1.2-copy-metadata/)
 
 [View All Lessons](/tutorials/libav-tutorial/)
