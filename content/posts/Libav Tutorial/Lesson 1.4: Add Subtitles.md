@@ -114,6 +114,8 @@ In the next lesson you will learn how to take in multiple video files and
 dynamically choose which streams to include in the output based on user input.
 This will be similar to how the `-map` option works in `ffmpeg`.
 
+[Go To Next Lesson - 1.5: Streams](/posts/libav-tutorial/lesson-1.5-streams/)
+
 [Go To Previous Lesson - 1.3: Add Chapters](/posts/libav-tutorial/lesson-1.3-add-chapters/)
 
 [View All Lessons](/tutorials/libav-tutorial/)
