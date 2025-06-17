@@ -11,7 +11,7 @@ In this lesson, you will learn how take any number of inputs with any number of
 streams and dynamically select which of the input streams will be muxed into
 the output file. This will be similar to using the `-map` option with `ffmpeg`.
 All the code for this tutorial can be found
-[here](https://github.com/danielxhogan/LibavTutorial/blob/main/Lesson%201%3A%20Remux/Lesson%201.5%3A%20Streams/streams.c).
+[here](https://github.com/danielxhogan/LibavTutorial/tree/main/Lesson%201%3A%20Remux/Lesson%201.5%3A%20Streams).
 
 ## Argument Structure
 
