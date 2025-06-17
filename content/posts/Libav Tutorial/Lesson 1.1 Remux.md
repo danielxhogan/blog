@@ -203,10 +203,10 @@ to free the `AVPacket` and close the file.
     in_stream = in_fmt_ctx->streams[pkt->stream_index];
 
     if (pkt->stream_index == v_stream_idx) {
-      pkt->stream_index = 0;
+      pkt->stream_index = VIDEO_STREAM_IDX;
     }
     else if (pkt->stream_index == a_stream_idx) {
-      pkt->stream_index = 1;
+      pkt->stream_index = AUDIO_STREAM_IDX;
     }
     else {
       av_packet_unref(pkt);
