@@ -312,6 +312,8 @@ The next lesson will be the exact opposite of this example. It will take one sin
 input and produce several outputs. It will split the input into individual streams
 and output each stream in it's own file.
 
+[Go To Next Lesson - 1.6: Demux](/posts/libav-tutorial/lesson-1.6-demux/)
+
 [Go To Previous Lesson - 1.4: Add Subtitles](/posts/libav-tutorial/lesson-1.4-add-subtitles/)
 
 [View All Lessons](/tutorials/libav-tutorial/)
