@@ -14,7 +14,6 @@ file. All the code for this tutorial can be found
 
 ## Get basename
 
-
 {{< highlight c >}}
 in_filename = argv[1];
 output_dir = argv[2];
@@ -348,6 +347,8 @@ so they can be properly decoded. We will adjust the timestamps of each frame
 to make sure timestamps of our video start at 0 and we will check the timestamp
 value to know when to stop reading from the input to get the desired length
 for the clip.
+
+[Go To Next Lesson - 1.7: Clipping](/posts/libav-tutorial/lesson-1.7-clipping/)
 
 [Go To Previous Lesson - 1.5: Streams](/posts/libav-tutorial/lesson-1.5-streams/)
 
